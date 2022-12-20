@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.center {
+    padding-left: calc(50% - 580px);
+    padding-right: calc(50% - 580px);
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #694833;
+    display: flex;
+    gap: 31px;
+}
+
+.header_link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.top {
+    padding-top: 106px;
+    padding-bottom: 61px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 82px;
+}
+
+.title {
+    width: 578px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 110px;
+    line-height: 129px;
+    color: #D89415;
+    mix-blend-mode: normal;
+}
+
+.heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 80px;
+    color: #D89415;
+    mix-blend-mode: normal;
+}
+
+.about {
+    background: rgba(242, 242, 242, 0.34);
+    padding-top: 64px;
+    padding-bottom: 165px;
+}
+
+.about_content {
+    margin-top: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about_info {
+    width: 462px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.skills {
+    padding-top: 64;
+    padding-bottom: 126px;
+}
+
+.skills_content {
+    margin-top: 91px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 48px;
+}
+
+.slider {
+    padding-top: 65px;
+    padding-bottom: 178px;
+}
+
+.contacts {
+    padding-top: 79px;
+    padding-bottom: 79px;
+}
+
+.contacts_content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contacts_info {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+
+.contacts_link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.footer {
+    background: #694833;
+    padding-top: 29px;
+    padding-bottom: 29px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+@media (max-width: 1024px) {
+
+    /*Стили для планшета*/
+    .center {
+        padding-left: calc(50% - 360px);
+        padding-right: calc(50% - 360px);
+    }
+
+    .header {
+        justify-content: center;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .about_content {
+        justify-content: center;
+        gap: 32px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+        gap: 14px;
+    }
+
+    .header_link {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .title {
+        font-size: 55px;
+        line-height: 65px;
+    }
+
+    .heading {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .contacts_content {
+        justify-content: center;
+        gap: 32px;
+    }
+}
